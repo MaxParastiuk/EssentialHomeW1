@@ -1,16 +1,19 @@
 package homework3.task2;
 
-public class GoodPupil extends Pupil{
-    void study(){
+public class GoodPupil extends Pupil {
+    void study() {
         System.out.println("GoodPupil: Study-Good");
     }
-    void read (){
+
+    void read() {
         System.out.println("GoodPupil: Read-Good");
     }
-    void write(){
+
+    void write() {
         System.out.println("GoodPupil: Write-Good");
     }
-    void relax (){
+
+    void relax() {
         System.out.println("GoodPupil: Relax-Good");
     }
 }

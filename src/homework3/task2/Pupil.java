@@ -7,16 +7,19 @@ public class Pupil {
     public Pupil() {
     }
 
-    void study(){
+    void study() {
 
     }
-    void read (){
+
+    void read() {
 
     }
-    void write(){
+
+    void write() {
 
     }
-    void relax (){
+
+    void relax() {
 
     }
 }
