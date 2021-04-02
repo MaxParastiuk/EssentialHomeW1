@@ -1,16 +1,19 @@
 package homework4.task1;
 
-public class TXTHandler extends AbstractHandler{
-    void open(){
+public class TXTHandler extends AbstractHandler {
+    void open() {
         System.out.println("Open TXT file");
     }
-    void create(){
+
+    void create() {
         System.out.println("Create TXT file");
     }
-    void change(){
+
+    void change() {
         System.out.println("Change TXT file");
     }
-    void save(){
+
+    void save() {
         System.out.println("Save TXT file");
     }
 }

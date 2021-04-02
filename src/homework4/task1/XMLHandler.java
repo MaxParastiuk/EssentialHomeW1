@@ -1,16 +1,19 @@
 package homework4.task1;
 
 public class XMLHandler extends AbstractHandler{
-    void open(){
+    void open() {
         System.out.println("Open XML file");
     }
-    void create(){
+
+    void create() {
         System.out.println("Create XML file");
     }
-    void change(){
+
+    void change() {
         System.out.println("Change XML file");
     }
-    void save(){
+
+    void save() {
         System.out.println("Save XML file");
     }
 }

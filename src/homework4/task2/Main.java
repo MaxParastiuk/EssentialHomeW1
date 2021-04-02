@@ -20,7 +20,8 @@ public class Main {
                 playing.pause();
                 playing.stop();
                 break;
-            case record:  Player recording = new Player();
+            case record:
+                Player recording = new Player();
                 recording.play();
                 recording.record();
                 recording.stop();
@@ -28,4 +29,5 @@ public class Main {
             default:
                 System.out.println("There is no such function!");
         }
-    }}
+    }
+}

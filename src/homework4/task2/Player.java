@@ -1,6 +1,6 @@
 package homework4.task2;
 
-public class Player implements Playable,Recodable {
+public class Player implements Playable, Recodable {
 
     @Override
     public void play() {
