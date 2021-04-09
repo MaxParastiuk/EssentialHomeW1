@@ -2,12 +2,12 @@ package homework6.task3;
 
 public class Сalculator {
     public static void main(String[] args) {
-     Calc calculate = new Calc();
+        Calc calculate = new Calc();
 
-        System.out.println(calculate.sum(10,5));
-        System.out.println(calculate.subtraction(10,5));
-        System.out.println(calculate.division(10,5));
-        System.out.println(calculate.multiplication(10,5));
+        System.out.println(calculate.sum(10, 5));
+        System.out.println(calculate.subtraction(10, 5));
+        System.out.println(calculate.division(10, 5));
+        System.out.println(calculate.multiplication(10, 5));
     }
 
     static class Calc {
