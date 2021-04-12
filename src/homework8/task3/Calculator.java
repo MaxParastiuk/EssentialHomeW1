@@ -11,7 +11,7 @@ public class Calculator {
     }
 
     double div(double a, double b) {
-        double c = 0;
+        double c;
 
         if (b != 0) {
             c = a / b;
@@ -30,6 +30,7 @@ public class Calculator {
     }
 
 }
+
 class Main {
     public static void main(String[] args) throws IOException {
         String operation;
@@ -46,7 +47,7 @@ class Main {
 
         System.out.print("Input operation(+, -, *, /):");
         operation = in.next();
-        
+
         switch (operation) {
             case "+":
                 System.out.println("Answer is: " + calc.add(a, b));
