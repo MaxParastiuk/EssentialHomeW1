@@ -9,8 +9,7 @@ class Main {
         Price[] prices = new Price[2];
 
         Scanner in = new Scanner(System.in);
-
-        // loop
+        
         for (int i = 0; i < prices.length; i++) {
             System.out.println("NameOfProduct = ");
             String name = in.next();
